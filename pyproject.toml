@@ -38,7 +38,7 @@ pygments = "2.18.0"
 pytest = "8.3.2"
 python-dateutil = "2.9.0.post0"
 pytz = "2024.1"
-pywin32 = "306"
+pywin32 = { version = "^306", python = ">=3.7", platform = "windows" }
 pyzmq = "26.0.3"
 scikit-learn = "1.5.1"
 scipy = "1.14.0"
